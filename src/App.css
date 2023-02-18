@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.boxes {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.boxes::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.navbar{
+  background: rgba(255,255,255,0.9);
+}
