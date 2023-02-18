@@ -5,6 +5,7 @@ import Buttons from "./Buttons"
 import Cards from "./Cards"
 import Faq from "./Faq"
 import Footer from "./Footer"
+import Support from "./Support"
 
 const Main = () => {
 
@@ -83,6 +84,7 @@ const Main = () => {
       <Feedback name="Alaa Khaled" image="/resource/alaa.jpeg" comment="Boloforms has changed the way my team and I work. We used to have a very inefficient workflow, but Boloforms has streamlined it and allowed us to get our daily tasks done in a fraction of the time. Plus, it's incredibly user friendly and easy to understand. I highly recommend Boloforms for anyone who needs an efficient Google workflow software!" />
       <Buttons />
       <Feedback name="Deepak S (Solero Corporation)" image="/resource/deepak.e041dab0.jpeg" comment="Easy to use interface and timely support...looking for more features" />
+      <Support />
       <Faq />
       <div className="xl:container hidden md:block mx-auto my-0 mt-[30px] md:mt-[100px] px-[20px]">
         <div className=" text-center mb-[50px]">
