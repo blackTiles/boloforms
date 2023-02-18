@@ -26,6 +26,46 @@ const faqs = [
       question: "What will happen to my data if I cancel my subscription?",
       answer: "You data will still be stored in our database even after your subscription cancellation. If you want to remove your data, please contact to us via support@boloforms.com."
    },
+   {
+      id:"6",
+      question:"How does approval workflow feature work?",
+      answer:"When a Form Respondent sends a request, the addon will automatically send approval notification email to your specified recipient(s). Recipient can make One-click approve/reject decision on email, or, approve/reject & comment on BoloForms Approvals website. Finally, an email will be sent to all recipients notifying the final result."
+   },
+   {
+      id:"7",
+      question:"I receive a permission error when I try to setup the Add-on",
+      answer:"This is a known issue with Google permissions and it happens when you are logged in with more than one Google account. Try to sign out of all account except your main account. Alternatively, try Guest/Incognito mode."
+   },
+   {
+      id:"8",
+      question:"Does recipient need Google Account?",
+      answer:"No. Recipients do not need Google account. They also do not need to have access to your Google Form or spreadsheet. When a request is sent, recipient will receive an email which includes: One-click Approve & One-click Reject button: to approve/reject immediately. Approve/Reject & Comment button: to open BoloForms Website where you can approve/reject & give comment on the request"
+   },
+   {
+      id:"9",
+      question:"Can I use the addon if my organisation does not use Google accounts?",
+      answer:"Yes, but be aware that Form owner/adminstrator in particular still needs Google account. This is because the addon sends email on your Gmail behalf."
+   },
+   {
+      id:"10",
+      question:"How many recipients can I add?",
+      answer:"There is no limit to the number of recipients. However, be aware that the higher number of recipients is, the quicker your emails quota may run out."
+   },
+   {
+      id:"11",
+      question:"How can I contact support?",
+      answer:"For any additional questions, you can contact us on support@boloforms.com or on WhatsApp at +91-8830631677 anytime."
+   },
+   {
+      id:"12",
+      question:"Can Form Respondent or Recipients edit a form submission?",
+      answer:"You can have option to allow Form Respondents to edit their own submission. However, Recipients can not edit submissions from Respondent."
+   },
+   {
+      id:"13",
+      question:"Why does the approval workflow sometimes work smoothly and other times throws errors?",
+      answer:"If you suddenly have an error running when using an add-on, please let us know by sending an email to support@boloforms.com. Our team will contact you as soon as possible to look into the issue. If you need an expedited support, feel free to message us on WhatsApp at +91-8830631677."
+   },
 ]
 
 
