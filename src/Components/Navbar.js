@@ -32,7 +32,7 @@ const Navbar = () => {
                extraElement === "hidden"?
                ""
                :
-               <div className="absolute bg-white z-100 top-[100px] px-[30px] py-[30px] rounded-xl border shadow-lg hidden lg:flex flex-col">
+               <div className="absolute bg-white z-100 top-[80px] px-[30px] py-[30px] rounded-xl border shadow-lg hidden lg:flex flex-col">
                {
                   navElement.map((element)=>{
                      return(
