@@ -12,7 +12,7 @@ const Navbar = () => {
    ]
 
   return (
-    <div className="navbar fixed top-0 left-[50%] -translate-x-[50%] xl:container mx-auto my-0 px-[10px] md:px-[20px] w-[100%] flex justify-between items-center">
+    <div className="navbar fixed z-50 top-0 left-[50%] -translate-x-[50%] xl:container mx-auto my-0 px-[10px] md:px-[20px] w-[100%] flex justify-between items-center">
       <div className="nav-left flex items-center gap-[40px]">
         <img
           className="w-[150px]"
@@ -80,8 +80,8 @@ const Navbar = () => {
           
           {
             navbar === "opened"?
-            <div className="mobile-nav absolute lg:hidden top-[100px] left-[0px] w-[100%] h-[100vh] py-[50px] px-[30px] bg-gray-200">
-            <ul className="flex flex-col items-start gap-[15px] text-[25px]">
+            <div className="mobile-nav absolute z-40 lg:hidden top-[70px] left-[0px] w-[100%] h-[100vh] py-[50px] px-[30px] bg-gray-200">
+            <ul className="flex flex-col items-start gap-[15px] text-[20px]">
                <li className="cursor-pointer">Products</li>
                <li className="cursor-pointer">Pricing</li>
                <li className="cursor-pointer">Blogs</li>
