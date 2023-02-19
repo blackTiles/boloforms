@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="nav-left flex items-center gap-[40px]">
         <img
           className="w-[150px]"
-          src={process.env.PUBLIC_URL + "/resource/logo-text.e6f7617c.svg"}
+          src={process.env.PUBLIC_URL + "/resource/logo.png"}
           alt=""
         />
         <ul className="lg:flex gap-[20px] hidden">

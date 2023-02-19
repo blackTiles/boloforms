@@ -6,6 +6,8 @@ import Cards from "./Cards"
 import Faq from "./Faq"
 import Footer from "./Footer"
 import Support from "./Support"
+import ChipsPage from './ChipsPage'
+import Approvals  from './Approvals'
 
 const Main = () => {
 
@@ -84,7 +86,29 @@ const Main = () => {
       <Cards />
       <Feedback name="Alaa Khaled" image="/resource/alaa.jpeg" comment="Boloforms has changed the way my team and I work. We used to have a very inefficient workflow, but Boloforms has streamlined it and allowed us to get our daily tasks done in a fraction of the time. Plus, it's incredibly user friendly and easy to understand. I highly recommend Boloforms for anyone who needs an efficient Google workflow software!" />
       <Buttons />
+
       <Feedback name="Deepak S (Solero Corporation)" image="/resource/deepak.e041dab0.jpeg" comment="Easy to use interface and timely support...looking for more features" />
+      <ChipsPage />
+      <div className="py-[100px] px-[5px] md:px-[200px] text-white bg-violet-500 w-[100%] mx-auto my-0 mt-[30px] md:mt-[100px] px-[20px] flex flex-col gap-[30px] items-center justify-center">
+        <div className="font-bold text-[20px]">
+        “ Boloforms has completely revolutionized our form approval process. It is incredibly easy to use and simple to set up, saving us countless hours of work. We can now easily manage all of our form approvals, assign tasks to different team members and track progress all in one place. Boloforms is a must-have for any business looking for an efficient Form Approval Workflow Software! "
+        </div>
+        <img className="w-[150px]" src={process.env.PUBLIC_URL+"/resource/Stars.885edd0c.svg"} alt="" />
+        <div className="flex items-center justify-center gap-[20px]">
+          <img src={process.env.PUBLIC_URL+"/resource/patrick.4de6d5b1.jpeg"} alt="" className=" w-[100px] h-[100px] object-cover border-2 border-white rounded-full" />
+          <div className="text-left">
+            <h1 className="font-bold text-[20px]">Patrick Nyama</h1>
+            <h2 className="">Edmonton CA</h2>
+          </div>
+          
+        </div>
+      </div>
+      <Approvals />
+      
+      <Feedback name="Raman R" image="/resource/raman.e5477e92.jpeg" comment="I recently started using Boloforms for my Google Forms and it has been an absolute game-changer. The software is intuitive and user friendly, so I was able to set up my forms quickly & easily. It also provides powerful analytics to understand and act on the data collected from my forms in real-time. Overall, it's been a great experience using Boloforms and I highly recommend it!" />
+      <Buttons />
+      <Feedback name="John M." image="/resource/john.39efe227.jpeg" comment="Customer support is super awesome, Great add on for our team! This helps our task management must easier. I can easily keep track of my member's request and work progress. The approval process is smooth and extremely quick. I highly recommend this addon especially for small business like mine." />
+
       <div className="xl:container mx-auto my-0 mt-[30px] md:mt-[100px] px-[20px]">
         <div className="flex gap-[20px] md:gap-[40px] flex-col sm:flex-row items-left justify-center p-[20px] md:p-[30px] shadow-2xl rounded-2xl">
           <div className="left">
